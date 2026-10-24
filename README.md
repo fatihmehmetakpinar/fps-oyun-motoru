@@ -171,11 +171,11 @@ G. Grenade Physics & Live Trajectory Preview
 - F4                  : Toggle hitbox skeleton X-Ray behind walls
 - ESC                 : Release mouse cursor and safely exit
 
-================================================================================
-                        KURULUM KLAVUZU / INSTALLATION GUIDE
-================================================================================
 
-/*/*/ Bu bir deneme sürümü oyun motorudur; isteyen herkes kendi FPS oyununu 
+                        KURULUM KLAVUZU / INSTALLATION GUIDE
+
+
+/*/*/ Bu bir deneme sürümü oyun motorudur(optimize değildir); isteyen herkes kendi FPS oyununu 
 tasarlamak için kullanabilir. Neredeyse her şey mevcuttur ve Yapay Zekâ (YZ) 
 tarafından anlaşılıp okunabilir hale getirilmiştir. /*/*/
 
@@ -225,7 +225,7 @@ takip edebilirsiniz:
 
 [EN] ENGLISH
 --------------------------------------------------------------------------------
-This is a trial version of a game engine; anyone who wants can use it to design 
+This is a trial version of a game engine(not optimezed); anyone who wants can use it to design 
 their own FPS game. It features almost everything and has been made readable and 
 understandable by AI.
 
