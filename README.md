@@ -179,7 +179,7 @@ TR
 
 /*/*/Bir deneme sürümüdür oyum motorudur isteyen kulanip kendi fps oynunu tasarlayabilir çoğunlukla her şey var ve YZ tarafından anlaşılıp okunabilir hale getirilmiştir./*/*/
 ***Bnu oyun programıymış gibi ne var ne yok bakıp çalıştırmak için indirmeniz gereken bazı şeyler vardır:
-1}https://www.msys2.org/ exeyi yükleyin ve kurun
+1}https://www.msys2.org/ exeyi yükleyin ve kurun                                             
 2}UCRT yi açın ve aşağıdaki kodu yazarak SDL2 yi kurun kuruluysa bu aşamayı es geçin.
 	pacman -S --needed mingw-w64-ucrt-x86_64-toolchain mingw-w64-ucrt-x86_64-cmake mingw-w64-ucrt-x86_64-ninja mingw-w64-ucrt-x86_64-SDL2
 3}Dosyanın yüklü olduğu konumu cd ile yönlendirin örneğin:
