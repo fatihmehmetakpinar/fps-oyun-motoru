@@ -1,0 +1,15 @@
+Bu motor çekirdeği oyunun kalbini (backend/physics/netcode) oluşturuyor.BU BİR OYUN DEĞİLDİR.
+Oyun olabilmesi için:
+1.Client-Server Ayrımı (Dedicated Server):
+Şu anki yapıda sunucu ve istemci aynı uygulamanın içinde loopback (localhost) olarak haberleşiyor. Bunu gerçek bir çok oyunculu (multiplayer) oyuna çevirmek için sunucu tarafını harici bir konsol uygulamasına (server.exe) dönüştürmelisin.
+
+2.Harita Yükleme Sistemi (Map Loading):
+Şu an sahnede kodla oluşturulmuş procedural fırçalar (kutular, merdivenler, rampalar) var. Gerçek bir CS map formatını (.bsp veya .obj/.gltf) okuyup çarpışma dünyasına (CollisionWorld) aktaran bir dosya parser yazman gerekir.
+
+3.Oyun Modu Mantığı (Bomb Defusal / C4 / Rehine kurtarma / Hikaye):
+A, B bombaları, C4 kurma/çözme sayaçları, round başı para (ekonomi) sistemi ve takım seçimi (Terrorist vs Counter-Terrorist) mantığını eklemelisin.
+
+4.Gerçek Görseller ve Animasyonlar:
+Şu anki wireframe ve katı renkli kutular yerine OpenGL veya modern bir render boru hattı (OpenGL 3.3+ Core veya Vulkan) üzerinden gerçek .obj/.fbx modelleri ve kaplamaları (textures) render etmelisin.
+
+Özetle: Ellerindeki bu kod tabanı, sıradan bir hobi projesinden çok daha ötede; profesyonel düzeyde bir netcode ve hareket fiziğine sahip. Bu repoyu temel alarak harika bir rekabetçi FPS oyunu (veya CS klonu) geliştirebilirsin!
