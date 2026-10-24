@@ -1,11 +1,8 @@
 # fps-oyun-motoru(optimizasyoni iyi değil açık kaynaklı bir koddur)
   ===KULANIM KULAVUZU===
-TR
-
-
-
+  
+  TR
           CS COMPETITIVE FPS ENGINE CORE - GELISTIRICI VE KULLANIM KLAVUZU
-
 
 1. MİMARİ GENEL BAKIŞ VE DOSYA DÜZENİ
 
