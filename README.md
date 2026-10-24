@@ -1,4 +1,4 @@
-# fps-oyun-motoru(optimizasyoni iyi değil açık kaynaklı bir koddur)
+# fps-oyun-motoru(optimizasyoni iyi değil açık kaynaklı bir koddur) fps-game-engine(not good with optimized its open soruce code)
   ===KULANIM KULAVUZU===
   
   TR
@@ -225,7 +225,7 @@ takip edebilirsiniz:
 
 [EN] ENGLISH
 --------------------------------------------------------------------------------
-This is a trial version of a game engine(not optimezed); anyone who wants can use it to design 
+This is a trial version of a game engine(not optimized); anyone who wants can use it to design 
 their own FPS game. It features almost everything and has been made readable and 
 understandable by AI.
 
