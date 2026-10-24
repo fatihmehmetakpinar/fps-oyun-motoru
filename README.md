@@ -1,11 +1,6 @@
 # fps-oyun-motoru(optimizasyoni iyi değil açık kaynaklı bir koddur)
   ===KULANIM KULAVUZU===
-IIIIIIII  IIIII
-   II     II  II
-   II     IIIII
-   II     II II
-   II     II  II
-   II     II   II
+TR
 
 
 /*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*//*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/
@@ -94,13 +89,7 @@ G. El Bombası Fiziği ve Canlı Yörünge Önizlemesi (HE & Flashbang)
 - ESC                 : Fare imleci serbest bırakma ve güvenli çıkış
 
 
-IIIIIIII   II      II
-II         IIII    II
-II         II II   II
-IIIIIIII   II  II  II
-II         II   II II
-II	   II    IIII
-IIIIIIII   II      II
+EN
 
 
 /*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*//*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/
@@ -185,12 +174,7 @@ G. Grenade Physics & Live Trajectory Preview
 - ESC                 : Release mouse cursor and safely exit
 
   ==KURULUM KLAVUZU==
-IIIIIIII  IIIII
-   II     II  II
-   II     IIIII
-   II     II II
-   II     II  II
-   II     II   II
+TR
 
 
 /*/*/Bir deneme sürümüdür oyum motorudur isteyen kulanip kendi fps oynunu tasarlayabilir çoğunlukla her şey var ve YZ tarafından anlaşılıp okunabilir hale getirilmiştir./*/*/
@@ -214,13 +198,7 @@ IIIIIIII  IIIII
 	./fps_core.exe
 
 
-IIIIIIII   II      II
-II         IIII    II
-II         II II   II
-IIIIIIII   II  II  II
-II         II   II II
-II	   II    IIII
-IIIIIIII   II      II
+EN
 
 
 /*/*/ This is a trial version of a game engine; anyone who wants can use it to design their own FPS game. It features almost everything and has been made readable and understandable by AI. /*/*/
