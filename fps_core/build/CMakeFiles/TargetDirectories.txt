@@ -1,3 +1,0 @@
-C:/Users/Can/Desktop/fps_core/build/CMakeFiles/fps_core.dir
-C:/Users/Can/Desktop/fps_core/build/CMakeFiles/edit_cache.dir
-C:/Users/Can/Desktop/fps_core/build/CMakeFiles/rebuild_cache.dir
