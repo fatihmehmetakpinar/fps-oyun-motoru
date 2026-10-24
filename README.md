@@ -186,7 +186,7 @@ Oyun programıymış gibi incelemek ve çalıştırmak için aşağıdaki adıml
 takip edebilirsiniz:
 
 1) https://www.msys2.org/ adresinden yükleyiciyi (.exe) indirin ve kurun.
-2) CMake kurun.
+2) CMake indirin ve kurun.
 3) UCRT terminalini açın ve SDL2 paketini kurmak için aşağıdaki kodu yazın 
    (Eğer sisteminizde zaten kuruluysa bu aşamayı es geçebilirsiniz):
    
@@ -233,8 +233,8 @@ understandable by AI.
 To run it and check everything out as if it were a finished game program, 
 follow these steps:
 
-1) Download and install the .exe installer from https://www.msys2.org/
-2) Set up CMake.
+1) Download and setup the .exe installer from https://www.msys2.org/
+2) Download and setup CMake.
 3) Open UCRT and install SDL2 by typing the command below. 
    (If it is already installed on your system, skip this step):
    
