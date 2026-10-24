@@ -186,27 +186,28 @@ Oyun programıymış gibi incelemek ve çalıştırmak için aşağıdaki adıml
 takip edebilirsiniz:
 
 1) https://www.msys2.org/ adresinden yükleyiciyi (.exe) indirin ve kurun.
-2) UCRT terminalini açın ve SDL2 paketini kurmak için aşağıdaki kodu yazın 
+2) CMake kurun.
+3) UCRT terminalini açın ve SDL2 paketini kurmak için aşağıdaki kodu yazın 
    (Eğer sisteminizde zaten kuruluysa bu aşamayı es geçebilirsiniz):
    
    pacman -S --needed mingw-w64-ucrt-x86_64-toolchain mingw-w64-ucrt-x86_64-cmake mingw-w64-ucrt-x86_64-ninja mingw-w64-ucrt-x86_64-SDL2
 
-3) Komut satırında 'cd' komutu ile proje klasörünün konumuna gidin. Örnek:
+4) Komut satırında 'cd' komutu ile proje klasörünün konumuna gidin. Örnek:
    
    cd /c/Users/Can/Desktop/fps_core
 
-4) Doğru yerde olup olmadığınızı kontrol etmek için şunu yazın:
+5) Doğru yerde olup olmadığınızı kontrol etmek için şunu yazın:
    
    ls
 
-5) Eğer doğru 'fps_core' dizinindeyseniz, projeyi derlemek için sırasıyla 
+6) Eğer doğru 'fps_core' dizinindeyseniz, projeyi derlemek için sırasıyla 
    şu kodları girin:
    
    mkdir -p build && cd build
    cmake -G "Ninja" -DCMAKE_BUILD_TYPE=Release ..
    cmake --build .
 
-6) Bu işlem derlemeyi tamamlayacak ve çalıştırılabilir (.exe) dosyayı 
+7) Bu işlem derlemeyi tamamlayacak ve çalıştırılabilir (.exe) dosyayı 
    oluşturacaktır. Oyunu fırlatmak için son olarak şunu yazın:
    
    ./fps_core.exe
@@ -233,24 +234,25 @@ To run it and check everything out as if it were a finished game program,
 follow these steps:
 
 1) Download and install the .exe installer from https://www.msys2.org/
-2) Open UCRT and install SDL2 by typing the command below. 
+2) Set up CMake.
+3) Open UCRT and install SDL2 by typing the command below. 
    (If it is already installed on your system, skip this step):
    
    pacman -S --needed mingw-w64-ucrt-x86_64-toolchain mingw-w64-ucrt-x86_64-cmake mingw-w64-ucrt-x86_64-ninja mingw-w64-ucrt-x86_64-SDL2
 
-3) Navigate to the project folder location using the 'cd' command. Example:
+4) Navigate to the project folder location using the 'cd' command. Example:
    
    cd /c/Users/Can/Desktop/fps_core
 
-4) Type 'ls' to check if you are in the right directory.
+5) Type 'ls' to check if you are in the right directory.
 
-5) If you are in the 'fps_core' directory, enter the following commands to build:
+6) If you are in the 'fps_core' directory, enter the following commands to build:
    
    mkdir -p build && cd build
    cmake -G "Ninja" -DCMAKE_BUILD_TYPE=Release ..
    cmake --build .
 
-6) This will complete the build and generate the executable (.exe) file. 
+7) This will complete the build and generate the executable (.exe) file. 
    To launch the game, finally type:
    
    ./fps_core.exe
