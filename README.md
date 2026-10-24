@@ -3,12 +3,12 @@
 TR
 
 
-/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*//*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/
+
           CS COMPETITIVE FPS ENGINE CORE - GELISTIRICI VE KULLANIM KLAVUZU
-/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*//*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/
+
 
 1. MİMARİ GENEL BAKIŞ VE DOSYA DÜZENİ
-/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/
+
 Motor; harici oyun motoru şişkinliklerinden arındırılmış, sıfır dinamik bellek 
 tahsisi (zero heap allocation) ve önbellek dostu (Data-Oriented POD) prensiplerle 
 C++20, SDL2 ve OpenGL 3.3 Core kullanılarak tasarlanmıştır.
@@ -23,7 +23,7 @@ fps_core/
 
 
 2. TEMEL ÇEKİRDEK MODÜLLER VE ÇALIŞMA MANTIĞI
-/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/
+
 
 A. Sabit Zaman Döngüsü (Fixed-Timestep Tick System)
 - Fizik simülasyonu render kare hızından (FPS) tamamen izole edilmiş 128 Hz 
@@ -71,7 +71,7 @@ G. El Bombası Fiziği ve Canlı Yörünge Önizlemesi (HE & Flashbang)
 
 
 3. OYUN İÇİ KONTROLLER VE TUŞ KISAYOLARI
-/*//*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/
+
 - W, A, S, D          : Quake / Source kinematik koşu ve hava kontrolü (Air-Strafe)
 - Space / MWheel      : Bunny Hop (Zıplama)
 - Sol Ctrl            : Çömelme (Duck - Inaccuracy değerini azaltır)
@@ -92,12 +92,12 @@ G. El Bombası Fiziği ve Canlı Yörünge Önizlemesi (HE & Flashbang)
 EN
 
 
-/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*//*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/
+
          CS COMPETITIVE FPS ENGINE CORE - DEVELOPER & USER MANUAL
-/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*//*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/
+
 
 1. ARCHITECTURAL OVERVIEW & FILE STRUCTURE
-/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/
+
 The engine is designed without external game engine bloat, using zero heap 
 allocation and cache-friendly (Data-Oriented POD) principles with C++20, SDL2, 
 and OpenGL 3.3 Core.
@@ -112,7 +112,7 @@ fps_core/
 
 
 2. CORE MODULES & WORKING MECHANICS
-/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/
+
 
 A. Fixed-Timestep Tick System
 - Physics simulation runs at a fixed 128 Hz (TICK_INTERVAL = 1.0 / 128.0 sec), 
@@ -156,7 +156,7 @@ G. Grenade Physics & Live Trajectory Preview
 
 
 3. IN-GAME CONTROLS & SHORTCUTS
-/*//*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/
+
 - W, A, S, D          : Quake / Source kinematic movement and Air-Strafe
 - Space / MWheel      : Bunny Hop (Jumping)
 - Left Ctrl           : Duck (Crouching - reduces inaccuracy)
