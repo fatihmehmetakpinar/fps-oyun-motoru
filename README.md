@@ -173,52 +173,99 @@ G. Grenade Physics & Live Trajectory Preview
 - F4                  : Toggle hitbox skeleton X-Ray behind walls
 - ESC                 : Release mouse cursor and safely exit
 
-  ==KURULUM KLAVUZU==
-TR
+================================================================================
+                        KURULUM KLAVUZU / INSTALLATION GUIDE
+================================================================================
+
+/*/*/ Bu bir deneme sürümü oyun motorudur; isteyen herkes kendi FPS oyununu 
+tasarlamak için kullanabilir. Neredeyse her şey mevcuttur ve Yapay Zekâ (YZ) 
+tarafından anlaşılıp okunabilir hale getirilmiştir. /*/*/
 
 
-Bir deneme sürümüdür oyum motorudur isteyen kulanip kendi fps oynunu tasarlayabilir çoğunlukla her şey var ve YZ tarafından anlaşılıp okunabilir hale getirilmiştir.
-***Bnu oyun programıymış gibi ne var ne yok bakıp çalıştırmak için indirmeniz gereken bazı şeyler vardır:	
-1}https://www.msys2.org/ exeyi yükleyin ve kurun   	                                          
-2}UCRT yi açın ve aşağıdaki kodu yazarak SDL2 yi kurun kuruluysa bu aşamayı es geçin.	
-	pacman -S --needed mingw-w64-ucrt-x86_64-toolchain mingw-w64-ucrt-x86_64-cmake mingw-w64-ucrt-x86_64-ninja mingw-w64-ucrt-x86_64-SDL2	
-3}Dosyanın yüklü olduğu konumu cd ile yönlendirin örneğin:	
-	cd /c/Users/Can/Desktop/fps_core	
-4}Kontrol için ls yazın	
-5}Eğer dosya fps_core yönlendiriyorsa ardından şu kodu girin:	
-	mkdir -p build && cd build	
-	cmake -G "Ninja" -DCMAKE_BUILD_TYPE=Release ..	
-	cmake --build .	
-6}Bu buildi ve exeyi kurucak sadece exeyi fırlatmak kaldı son olarak şunu yazın:	
-	./fps_core.exe	
-***Eğer tekrar açmak istiyorsanız şunu izleyin:	
-1}Dosyanın yüklü olduğu konumu cd ile yönlendirin örneğin:	
-	cd /c/Users/Can/Desktop/fps_core	
-2}Sonra:	
-	./fps_core.exe	
+[TR] TÜRKÇE
+--------------------------------------------------------------------------------
+Oyun programıymış gibi incelemek ve çalıştırmak için aşağıdaki adımları 
+takip edebilirsiniz:
+
+1) https://www.msys2.org/ adresinden yükleyiciyi (.exe) indirin ve kurun.
+2) UCRT terminalini açın ve SDL2 paketini kurmak için aşağıdaki kodu yazın 
+   (Eğer sisteminizde zaten kuruluysa bu aşamayı es geçebilirsiniz):
+   
+   pacman -S --needed mingw-w64-ucrt-x86_64-toolchain mingw-w64-ucrt-x86_64-cmake mingw-w64-ucrt-x86_64-ninja mingw-w64-ucrt-x86_64-SDL2
+
+3) Komut satırında 'cd' komutu ile proje klasörünün konumuna gidin. Örnek:
+   
+   cd /c/Users/Can/Desktop/fps_core
+
+4) Doğru yerde olup olmadığınızı kontrol etmek için şunu yazın:
+   
+   ls
+
+5) Eğer doğru 'fps_core' dizinindeyseniz, projeyi derlemek için sırasıyla 
+   şu kodları girin:
+   
+   mkdir -p build && cd build
+   cmake -G "Ninja" -DCMAKE_BUILD_TYPE=Release ..
+   cmake --build .
+
+6) Bu işlem derlemeyi tamamlayacak ve çalıştırılabilir (.exe) dosyayı 
+   oluşturacaktır. Oyunu fırlatmak için son olarak şunu yazın:
+   
+   ./fps_core.exe
 
 
-EN
+*** Daha Sonra Tekrar Açmak İçin:
+1) 'cd' komutu ile dosyanın bulunduğu konuma tekrar gidin:
+   
+   cd /c/Users/Can/Desktop/fps_core
+
+2) Doğrudan çalıştırın:
+   
+   ./fps_core.exe
 
 
-This is a trial version of a game engine; anyone who wants can use it to design their own FPS game. It features almost everything and has been made readable and understandable by AI. 	
-*** To run it and check everything out as if it were a finished game program, there are a few things you need to download and set up:	
-1} Download and install the .exe from https://www.msys2.org/	
-2} Open UCRT and install SDL2 by typing the code below. If it is already installed, skip this step.	
-	pacman -S --needed mingw-w64-ucrt-x86_64-toolchain mingw-w64-ucrt-x86_64-cmake mingw-w64-ucrt-x86_64-ninja mingw-w64-ucrt-x86_64-SDL2	
-3} Navigate to the folder where the files are located using 'cd', for example:	
-	cd /c/Users/Can/Desktop/fps_core	
-4} Type 'ls' to check.	
-5} If you are in the fps_core directory, enter the following code:	
-	mkdir -p build && cd build	
-	cmake -G "Ninja" -DCMAKE_BUILD_TYPE=Release ..	
-	cmake --build .	
-6} This will handle the build and create the executable (.exe). All that's left is to launch it; finally, type:	
-	./fps_core.exe	
-*** If you want to open it again later, follow these steps:	
-1} Navigate to the directory where the files are located using 'cd', for example:	
-	cd /c/Users/Can/Desktop/fps_core	
-2} Then:	
-	./fps_core.exe	
+
+[EN] ENGLISH
+--------------------------------------------------------------------------------
+This is a trial version of a game engine; anyone who wants can use it to design 
+their own FPS game. It features almost everything and has been made readable and 
+understandable by AI.
+
+To run it and check everything out as if it were a finished game program, 
+follow these steps:
+
+1) Download and install the .exe installer from https://www.msys2.org/
+2) Open UCRT and install SDL2 by typing the command below. 
+   (If it is already installed on your system, skip this step):
+   
+   pacman -S --needed mingw-w64-ucrt-x86_64-toolchain mingw-w64-ucrt-x86_64-cmake mingw-w64-ucrt-x86_64-ninja mingw-w64-ucrt-x86_64-SDL2
+
+3) Navigate to the project folder location using the 'cd' command. Example:
+   
+   cd /c/Users/Can/Desktop/fps_core
+
+4) Type 'ls' to check if you are in the right directory.
+
+5) If you are in the 'fps_core' directory, enter the following commands to build:
+   
+   mkdir -p build && cd build
+   cmake -G "Ninja" -DCMAKE_BUILD_TYPE=Release ..
+   cmake --build .
+
+6) This will complete the build and generate the executable (.exe) file. 
+   To launch the game, finally type:
+   
+   ./fps_core.exe
+
+
+*** To Open It Again Later:
+1) Navigate back to the folder directory using 'cd':
+   
+   cd /c/Users/Can/Desktop/fps_core
+
+2) Launch directly:
+   
+   ./fps_core.exe
+
 
 
