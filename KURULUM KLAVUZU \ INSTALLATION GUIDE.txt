@@ -23,7 +23,7 @@ IIIIIIII  IIIII
 	./fps_core.exe
 ***Eğer tekrar açmak istiyorsanız şunu izleyin:
 1}Dosyanın yüklü olduğu konumu cd ile yönlendirin örneğin:
-	cd /c/Users/Can/Desktop/fps_core
+	cd /c/Users/Can/Desktop/fps_core/build
 2}Sonra:
 	./fps_core.exe
 
@@ -54,6 +54,6 @@ IIIIIIII   II      II
 	./fps_core.exe
 *** If you want to open it again later, follow these steps:
 1} Navigate to the directory where the files are located using 'cd', for example:
-	cd /c/Users/Can/Desktop/fps_core
+	cd /c/Users/Can/Desktop/fps_core/build
 2} Then:
 	./fps_core.exe
