@@ -242,7 +242,7 @@ follow these steps:
 
 4) Navigate to the project folder location using the 'cd' command. Example:
    
-   cd /c/Users/Can/Desktop/fps_core
+   cd /c/Users/Can/Desktop/fps_core/build
 
 5) Type 'ls' to check if you are in the right directory.
 
@@ -261,7 +261,7 @@ follow these steps:
 *** To Open It Again Later:
 1) Navigate back to the folder directory using 'cd':
    
-   cd /c/Users/Can/Desktop/fps_core
+   cd /c/Users/Can/Desktop/fps_core/build
 
 2) Launch directly:
    
